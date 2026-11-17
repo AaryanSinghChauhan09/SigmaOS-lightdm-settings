@@ -3,12 +3,12 @@ name = "SigmaOS-lightdm-settings"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "lightdm-settings component"
+description = "Lightdm settings component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
